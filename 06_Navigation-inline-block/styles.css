@@ -1,0 +1,67 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+.header {
+    display: inline-block;
+}
+
+.header .logo {
+    width: 40px;
+    margin-right: 120px;
+    vertical-align: middle;
+}
+
+.header .nav {
+    display: inline-block;
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+
+.header .nav {
+    list-style: none;
+}
+
+.header .nav .link-item,
+.header .nav .link-item-site-title {
+    display: inline-block;
+    margin-right: 12px;
+}
+
+.header .nav .link-item-site-title {
+    font-size: 24px;
+    margin-right: 24px;
+    padding-right: 30px;
+    color:black;
+    text-decoration: none;
+}
+
+.header .nav .link-item {
+    color: green;
+    margin-right: 12px;
+    text-decoration: none;
+}
+
+body {
+    margin: 0px;
+    font: Helvetica, sans-serif;
+    padding-left: 40px;
+}
+
+.heading-level {
+    font-family: Helvetica, helvetica;
+    font-family: sans-serif;
+}
+
+p 
+{
+    font-family: Helvetica, helvetica;
+    font-family: sans-serif;
+}
+

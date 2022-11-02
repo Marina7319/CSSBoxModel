@@ -1,0 +1,73 @@
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+:root {
+    --clr-primary: #b0a8b9;
+    --clr-primary-light: #d8d4dc;
+    --clr-grey: #58545d;
+    --clr-grey-light: #e7e5ea;
+}
+
+.header {
+    background-color: plum;
+}
+
+.header .logo {
+    width: 40px;
+    margin-right: 120px;
+    vertical-align: middle;
+}
+
+
+.group {
+    width: 400px;
+    margin: 50px auto;
+    display: block;
+}
+
+.group .group__btn {
+    --btn-clr-primary: var(--clr-grey);
+    --btn-clr-primary-light: var(--clr-grey-light);
+    font-size: 12px;
+    padding: 8px 12px;
+    width: 33.33%;
+    border-radius: 0px;
+    color: var(--clr-grey);
+    border: 1px solid var(--clr-grey);
+    background-color: var(--clr-grey-light);
+    cursor: pointer;
+}
+
+.group .group__btn:first-child {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.group .group__btn:nth-child(1) {
+    border-left: 0px;
+    border-right: 0px;
+
+}
+
+.group .group__btn:last-child {
+    --btn-clr-primary: var(--clr-primary);
+    --btn-clr-primary-light: var(--clr-primary-light);
+}
+
+.group .group__btn.active {
+    --btn-clr-primary: var(--clr-primary);
+    --btn-clr-primary-light: var(--clr-primary-light);
+}
+
+.group .group__btn.active {
+    --btn-clr-primary: var(--clr-primary);
+    --btn-clr-primary-light: var(--clr-primary-light);
+    border-width: 1px;
+}
+
+.group .group__btn:not(:last-child) {
+    border-left: 0px;
+}

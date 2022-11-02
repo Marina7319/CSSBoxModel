@@ -1,0 +1,47 @@
+body 
+{
+    background-color: rgb(238, 238, 238);
+}
+
+main 
+{
+    Width: 99%;
+}
+
+article
+{
+
+    font-family: Helvetica, sans-serif;
+    color: rgb(51, 51, 51);
+    margin-right: 300px;
+    margin-left: 40px;
+    padding-right: 120px;
+    border-right: 5px;
+
+}
+
+img 
+{
+    width: 80%;
+}
+
+header 
+{
+    margin-bottom: 50px;
+}
+
+li 
+{
+    list-style: square;
+}
+
+aside 
+{
+    font-family: Helvetica, sans-serif;
+    width: 300px;
+    color: rgb(51, 51, 51);
+    padding-right: 160px;
+    text-align: justify;
+    float: right;
+    
+}
